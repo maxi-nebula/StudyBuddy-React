@@ -1,0 +1,10 @@
+.header {
+  font-size: large;
+  font-style: normal;
+  color: black;
+  font-weight: 300;
+  text-align: center;
+  background-color: #dddddd;
+
+  height: 50px;
+}

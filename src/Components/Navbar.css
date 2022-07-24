@@ -1,0 +1,28 @@
+.navbar {
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-stretch: expanded;
+  width: 100%;
+  float: left;
+  display: inline-flex;
+  padding: 8px;
+  background-color: #dddddd;
+}
+li {
+  display: inline;
+  padding: 15px;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(241, 202, 129);
+}
+
+/* Change the link color to #111 (black) on hover */
