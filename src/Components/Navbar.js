@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <div className="navbar">
       <li className="li">
@@ -14,6 +14,7 @@ const Navbar = () => {
       <li>
         <Link to="/RemindersPage">Reminders</Link>
       </li>
+      <li>welcome:{props.username}</li>
     </div>
   );
 };

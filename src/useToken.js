@@ -4,7 +4,8 @@ const useToken = () => {
   const getToken = () => {
     const tokenString = localStorage.getItem("token");
     const userToken = JSON.parse(tokenString);
-    return userToken?.token;
+    // return userToken?.token;
+    return userToken && userToken.token;
   };
   const [token, setToken] = useState(getToken());
 

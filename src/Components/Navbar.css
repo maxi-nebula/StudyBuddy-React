@@ -5,8 +5,7 @@
   font-stretch: expanded;
   width: 100%;
   float: left;
-  display: inline-flex;
-  padding: 8px;
+  display: flex;
   background-color: #dddddd;
 }
 li {

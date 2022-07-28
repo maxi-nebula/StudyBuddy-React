@@ -1,12 +1,9 @@
 img {
   border: "0";
-  border-radius: 4px;
-  padding: 20px;
-  max-width: 262px;
+
+  padding-right: 20px;
+  max-width: 242px;
   max-height: 178px;
-  object-fit: cover;
-  justify-content: left;
-}
-img:hover {
-  background-color: rgb(241, 202, 129);
+  object-fit: contain;
+  justify-content: center;
 }
